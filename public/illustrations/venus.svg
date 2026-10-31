@@ -1,0 +1,18 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <radialGradient id="venus" cx="32%" cy="25%" r="80%">
+      <stop offset="0%" stop-color="#FFE8A8"/>
+      <stop offset="55%" stop-color="#E9A94F"/>
+      <stop offset="100%" stop-color="#A95435"/>
+    </radialGradient>
+  </defs>
+  <circle cx="150" cy="150" r="105" fill="url(#venus)"/>
+  <g fill="none" stroke="#FFF0C4" stroke-width="13" opacity=".48" stroke-linecap="round">
+    <path d="M65 105 Q125 75 230 105"/>
+    <path d="M48 145 Q130 115 248 145"/>
+    <path d="M58 185 Q140 155 235 190"/>
+    <path d="M92 220 Q150 195 210 220"/>
+  </g>
+  <path d="M75 75 Q125 30 190 57" fill="none" stroke="#FFF" stroke-width="5" opacity=".3" stroke-linecap="round"/>
+</svg>
